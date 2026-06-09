@@ -1,0 +1,17 @@
+// Função que recebe três parâmetros numéricos e retorna a multiplicação deles
+function multiplicarTresNumeros(n1, n2, n3) {
+    const resultado = n1 * n2 * n3; // multiplica os três valores
+    return resultado; // retorna o resultado da multiplicação
+}
+
+// Invocação da função com três argumentos 
+const resultadoFinal = multiplicarTresNumeros(5, 3, 10);
+
+// Exibindo o resultado de forma amigável no console 
+console.log("O resultado da multiplicação dos três números é: " + resultadoFinal);
+
+// Invocação da função com três argumentos
+const resultadoFinal2 = multiplicarTresNumeros(2, 7, 9);
+
+// Exibindo o resultado de forma amigável no console
+console.log("O resultado da multiplicação dos três números é: " + resultadoFinal2);
